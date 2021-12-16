@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void){
+int main8(void){
 	// Points and multi-dimensional arrays
 	int B[2][3];
 	int (*p)[3] = B;
@@ -14,7 +14,8 @@ int main(void){
 
 	printf("*(*B + 1) or B[0][1] = %d \n", *(*B + 1));	// -858993460
 
-	printf("(*)p[3] = %d \n", p);			// (*)p[3] = 9959376
+	// B[2][3],(*p)[3] = B 可以理解为有多个长度为 [3] 的一维数组，所以写作 (*p)[3] 
+	printf("(*p)[3] = %d \n", p);			// (*)p[3] = 9959376
 	printf("p[0] = %d \n", p[0]);			// p[0] = 9959376
 	printf("p[1] = %d \n", p[1]);			// p[1] = 9959388
 	printf("p[2] = %d \n", p[2]);			// p[2] = 9959400

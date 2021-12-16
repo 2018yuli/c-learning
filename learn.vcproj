@@ -166,6 +166,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\memoryLeak.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\point1.cpp"
 				>
 			</File>
@@ -199,6 +203,34 @@
 			</File>
 			<File
 				RelativePath=".\point92.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\point93.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\point94.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\point95.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\point96.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\point97.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\point98.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\point991.cpp"
 				>
 			</File>
 		</Filter>
